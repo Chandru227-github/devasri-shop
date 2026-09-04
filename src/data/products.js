@@ -1,0 +1,250 @@
+export const products = [
+  {
+    id: 'green-mango',
+    name: 'Green Mango',
+    category: 'fruits',
+    image: '/images/green-mango.jpg',
+    packaging: '5kg / 10kg Corrugated Boxes',
+    origin: 'Tamil Nadu & Andhra Pradesh, India',
+    shelfLife: '14-21 Days with Cold Chain',
+    season: 'March to August',
+    tag: 'Farm Fresh',
+    description: 'Freshly harvested raw green mangoes, hand-picked for crisp texture, ideal for culinary dishes, salads, and pickle processing.'
+  },
+  {
+    id: 'drumstick',
+    name: 'Drumstick',
+    category: 'vegetables',
+    image: '/images/drumstick.jpg',
+    packaging: '5kg / 10kg Air Cargo Master Cartons',
+    origin: 'Perambalur & Dindigul, Tamil Nadu',
+    shelfLife: '7-10 Days (Cold Stored)',
+    season: 'Year-round Available',
+    tag: 'Direct from Farms',
+    description: 'Export quality tender and meaty moringa drumsticks, rich in nutrients, graded and trimmed for uniform length.'
+  },
+  {
+    id: 'fresh-turmeric',
+    name: 'Fresh Turmeric',
+    category: 'spices',
+    image: '/images/fresh-turmeric.jpg',
+    packaging: '10kg / 20kg Ventilated Mesh Bags / Cartons',
+    origin: 'Erode & Salem, Tamil Nadu',
+    shelfLife: '30+ Days',
+    season: 'December to May',
+    tag: 'High Curcumin',
+    description: 'Raw organic golden turmeric rhizomes with natural medicinal potency, hygienically washed, sorted, and certified.'
+  },
+  {
+    id: 'green-lemon',
+    name: 'Green Lemon',
+    category: 'fruits',
+    image: '/images/green-lemon.jpg',
+    packaging: '5kg / 7kg Export CFB Cartons',
+    origin: 'Tenkasi & Andhra Pradesh, India',
+    shelfLife: '15-20 Days',
+    season: 'Year-round Available',
+    tag: 'Juicy & Fresh',
+    description: 'Juicy, seed-controlled thin-skinned green limes packed with natural vitamin C, hand-sorted for global supermarket standards.'
+  },
+  {
+    id: 'groundnut',
+    name: 'Groundnut',
+    category: 'agro',
+    image: '/images/groundnut.jpg',
+    packaging: '25kg / 50kg Jute Bags or PP Bags',
+    origin: 'Saurashtra & Tamil Nadu, India',
+    shelfLife: '6-9 Months',
+    season: 'September to March',
+    tag: 'Aflatoxin Tested',
+    description: 'Premium grade bold groundnuts in shell and raw kernels, sun-dried, sorted and lab-certified for international trade.'
+  },
+  {
+    id: 'banana-leaves',
+    name: 'Banana Leaves',
+    category: 'specialty',
+    image: '/images/banana-leaves.jpg',
+    packaging: '100 / 200 Pieces Moisture-sealed Air Cargo Boxes',
+    origin: 'Trichy & Thanjavur, Tamil Nadu',
+    shelfLife: '5-7 Days (Air Freight)',
+    season: 'Year-round Available',
+    tag: '100% Biodegradable',
+    description: 'Fresh, vibrant green traditional dining banana leaves, cut to standard size and packed with humidity locks for UAE restaurants and caterers.'
+  },
+  {
+    id: 'banana-flower',
+    name: 'Banana Flower',
+    category: 'vegetables',
+    image: '/images/banana-flower.jpg',
+    packaging: '10kg Foam-cushioned Air Cartons',
+    origin: 'Cauvery Delta, Tamil Nadu',
+    shelfLife: '5-7 Days',
+    season: 'Year-round Available',
+    tag: 'Nutrient Rich',
+    description: 'Tender Vazhaipoo (banana blossom), hand-selected for culinary richness and packed carefully to retain fresh maroon luster.'
+  },
+  {
+    id: 'raw-banana',
+    name: 'Raw Banana',
+    category: 'vegetables',
+    image: '/images/raw-banana.jpg',
+    packaging: '13.5kg / 18kg Telescopic Boxes',
+    origin: 'Theni & Perambalur, Tamil Nadu',
+    shelfLife: '21 Days (Reefer Cargo)',
+    season: 'Year-round Available',
+    tag: 'Premium Green',
+    description: 'Crisp green plantains, firm and uniform, grown in fertile river basins, packaged for Middle Eastern and GCC retail chains.'
+  },
+  {
+    id: 'jackfruit',
+    name: 'Jackfruit',
+    category: 'fruits',
+    image: '/images/jackfruit.jpg',
+    packaging: 'Individual Corrugated Sleeves / 15kg Crates',
+    origin: 'Panruti & Western Ghats, Tamil Nadu',
+    shelfLife: '10-14 Days',
+    season: 'March to July',
+    tag: 'Sweet & Aromatic',
+    description: 'Naturally sweet and aromatic Panruti jackfruits, available whole or vacuum-sealed bulbs with international quality grading.'
+  }
+];
+
+export const exportDestinations = [
+  'UAE',
+  'OMAN',
+  'QATAR',
+  'KUWAIT',
+  'BAHRAIN',
+  'SAUDI ARABIA',
+  'SINGAPORE',
+  'MALAYSIA',
+  'UK & EUROPE'
+];
+
+export const companyCredentials = {
+  legalName: 'VEERASAMY',
+  tradeName: 'DEVASHRI INTERNATIONAL EXPORTS AND IMPORTS',
+  constitution: 'Proprietorship',
+  proprietor: 'Veerasamy',
+  iecNumber: 'BFYPV0351P',
+  gstin: '33BFYPV0351P1ZL',
+  pan: 'BFYPV0351P',
+  fieoRcmc: 'RCMC/FIEO/11199/2025-2026',
+  fieoUdin: 'UDINRCMC00003297AM26',
+  fileNumber: 'RCMCAPPLYFIEO00001902AM26',
+  registeredAs: 'Merchant Exporter',
+  fieoValidity: 'Valid upto 31/03/2026',
+  fieoIssueDate: '02/04/2025',
+  gstIssueDate: '29/11/2023',
+  gstJurisdiction: 'PERAMBALUR, Tamil Nadu',
+  registeredAddress: {
+    line1: 'Ground Floor, 9/76, Gandhi Nagar',
+    landmark: 'Near Government Higher Secondary School',
+    village: 'Vadakkalur, Labbaikudikadu',
+    district: 'Perambalur',
+    state: 'Tamil Nadu',
+    pincode: '621108',
+    country: 'India',
+    fullAddress: 'Ground Floor, 9/76, Gandhi Nagar, Near Government Higher Secondary School, Vadakkalur, Labbaikudikadu, Perambalur, Tamil Nadu - 621108, India'
+  },
+  registeredGoods: [
+    'SPICES',
+    'AGRICULTURAL PRODUCTS',
+    'FOOD PRODUCTS',
+    'YELLOW CORN',
+    'MAIZE',
+    'GARMENTS',
+    'ENGINEERING PRODUCTS',
+    'CASHEWNUT AND COCONUT PRODUCTS'
+  ]
+};
+
+export const certifications = [
+  {
+    id: 'fieo',
+    code: 'FIEO',
+    badge: 'Govt. Apex Export Body',
+    title: 'Federation of Indian Export Organisations',
+    subtitle: 'Ministry of Commerce & Industry, Govt. of India',
+    regLabel: 'RCMC No.',
+    regNumber: 'RCMC/FIEO/11199/2025-2026',
+    iecNumber: 'BFYPV0351P',
+    udin: 'UDINRCMC00003297AM26',
+    validity: 'Valid upto 31/03/2026',
+    category: 'Merchant Exporter',
+    description: 'Statutory Registration Cum Membership Certificate (RCMC) authorizing global export of Agricultural Products, Food Products, Spices, Yellow Corn, Cashewnut & Coconut Products.',
+    isPrimaryGovt: true,
+    hasModalView: true
+  },
+  {
+    id: 'gst',
+    code: 'GSTIN',
+    badge: 'Govt. Tax Registration',
+    title: 'Goods & Services Tax Registration',
+    subtitle: 'Form GST REG-06, Government of India',
+    regLabel: 'GSTIN',
+    regNumber: '33BFYPV0351P1ZL',
+    jurisdiction: 'Perambalur Division, Tamil Nadu',
+    validity: 'Regular / Active since 29/11/2023',
+    category: 'Proprietorship',
+    description: 'Active Central and State GST registration ensuring 100% legal compliance and seamless international trade invoicing.',
+    isPrimaryGovt: true,
+    hasModalView: true
+  },
+  {
+    id: 'dgft',
+    code: 'DGFT - IEC',
+    badge: 'Customs & Trade Code',
+    title: 'Directorate General of Foreign Trade',
+    subtitle: 'Import Export Code (IEC), Ministry of Commerce',
+    regLabel: 'IEC Number',
+    regNumber: 'BFYPV0351P',
+    validity: 'Active Exporter Code',
+    category: 'Merchant Exporter',
+    description: 'Mandatory PAN-linked international commercial trade code authorized by DGFT for cross-border cargo dispatch through air and sea ports.',
+    isPrimaryGovt: true,
+    hasModalView: true
+  },
+  {
+    id: 'apeda',
+    code: 'APEDA',
+    badge: 'Agro Export Standard',
+    title: 'APEDA Quality Protocols',
+    subtitle: 'Agricultural & Processed Food Export Development Authority',
+    regLabel: 'Protocol',
+    regNumber: 'Quality Assured Dispatch',
+    validity: 'Reefer & Air Cargo Standard',
+    category: 'Phytosanitary Protocol',
+    description: 'Strict adherence to phytosanitary health clearance, pesticide residue controls, and cold-chain protocols for Middle East supermarket acceptance.',
+    isPrimaryGovt: false,
+    hasModalView: false
+  },
+  {
+    id: 'spices-board',
+    code: 'SPICES BOARD',
+    badge: 'Spice Quality Cleared',
+    title: 'Spices Board India Standards',
+    subtitle: 'Ministry of Commerce & Industry, Govt. of India',
+    regLabel: 'Quality Grade',
+    regNumber: 'Export Quality Compliance',
+    validity: 'Aflatoxin & Lab Verified',
+    category: 'Purity & Moisture Standard',
+    description: 'Quality grading for raw and processed turmeric and spices with laboratory analysis and international export certifications.',
+    isPrimaryGovt: false,
+    hasModalView: false
+  },
+  {
+    id: 'global-gap',
+    code: 'GLOBAL G.A.P',
+    badge: 'Farm Traceability',
+    title: 'Good Agricultural Practices',
+    subtitle: 'Ethical Harvesting & Farm Traceability',
+    regLabel: 'Harvest Standard',
+    regNumber: 'Eco & Residue Controlled',
+    validity: 'Continuous Farm Auditing',
+    category: 'Sustainable Sourcing',
+    description: 'Direct procurement from select partner farms maintaining strict pre-harvest interval controls and hygienic farm handling.',
+    isPrimaryGovt: false,
+    hasModalView: false
+  }
+];
