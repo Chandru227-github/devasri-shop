@@ -1,12 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [react()],
-
+  // ...your existing config
   preview: {
-    host: '0.0.0.0',
-    allowedHosts: ['devasri-shop.onrender.com'],
-  },
+    allowedHosts: ['devasri.shop', 'www.devasri.shop']
+  }
 })
-
